@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>chenai的专属博客</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://hexo.chenaiblog.buzz/"/>
   <updated>2024-07-31T17:39:00.037Z</updated>
-  <id>http://example.com/</id>
+  <id>https://hexo.chenaiblog.buzz/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>CHENAI</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2024/08/01/hello-world/"/>
-    <id>http://example.com/2024/08/01/hello-world/</id>
+    <link href="https://hexo.chenaiblog.buzz/2024/08/01/hello-world/"/>
+    <id>https://hexo.chenaiblog.buzz/2024/08/01/hello-world/</id>
     <published>2024-07-31T17:39:00.037Z</published>
     <updated>2024-07-31T17:39:00.037Z</updated>
     
