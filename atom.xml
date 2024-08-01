@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>chenai</title>
+  <title>CHENAI</title>
   
-  <subtitle>chenai的专属博客</subtitle>
+  <subtitle>尘埃的专属博客</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hexo.chenaiblog.buzz/"/>
