@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hexo.chenaiblog.buzz/"/>
-  <updated>2024-08-02T04:04:05.806Z</updated>
+  <updated>2024-08-02T11:54:46.189Z</updated>
   <id>https://hexo.chenaiblog.buzz/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Microsoft office</title>
+    <link href="https://hexo.chenaiblog.buzz/Microsoft-office/"/>
+    <id>https://hexo.chenaiblog.buzz/Microsoft-office/</id>
+    <published>2024-08-02T11:53:41.938Z</published>
+    <updated>2024-08-02T11:54:46.189Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Microsoft-office下载及激活"><a href="#Microsoft-office下载及激活" class="headerlink" title="Microsoft office下载及激活"></a>Microsoft office下载及激活</h1><p><em><strong>Office Tool Plus</strong></em></p><p>​     <a href="https://otp.landian.vip/zh-cn/">https://otp.landian.vip/zh-cn/</a></p><p>​    有必要关闭杀毒软件和Windows安全中心</p><blockquote><p>安装开始前，请做好以下事情：</p><ol><li>卸载 WPS Office，两者共存容易出问题（没有问题当我没说）。</li><li>卸载旧版本 Office，按照标准流程操作。请勿直接强制移除，有问题再强制。</li><li>清除旧版本激活信息，看下面的截图来学习。</li><li>清除 Office 设置，⌈工具箱⌋ - ⌈重置 Office 设置为默认设置⌋，可以选择所有选项进行删除。</li></ol></blockquote><ul><li><p>下载Office Tool Plus压缩包，在桌面解压</p></li><li><p>找到***.exe***的应用程序并安装</p></li><li><p>左侧栏中找到<em>激活</em></p><p>点击第一栏中的<em>许可证管理</em>(如图)</p><p><img src="https://www.coolhub.top/wp-content/uploads/2020/04/clear-activation-1536x752.png"></p></li><li><p>清除激活状态</p><p><img src="https://www.coolhub.top/wp-content/uploads/2022/06/clear-activation.png"></p></li><li><p>转到 Office Tool Plus 的部署页面，按照以下提示操作</p><p><em><strong>必须做的事情</strong></em></p><ol><li><p>添加产品：看下面的选项，选一个合适自己的来学习。</p></li><li><p>添加语言：这个？应该不需要太多解释吧。不要把“部署为校对工具”打勾，除非你知道这是什么。</p></li></ol><p><em><strong>可以做的事情</strong></em></p><ul><li>应用程序：选自己能看懂的就行，一般就是 Word, PowerPoint, Excel.</li><li>更新通道：“当前通道”就行，Office 2019&#x2F;2021 批量许可证请选 Office 2019&#x2F;2021 企业长期版。</li><li>体系结构：32 位兼容性好；64 位处理大数据能力稍强。</li><li>部署模式：那肯定要选安装啊，要不然怎么安装。</li><li>安装模块：如没有特殊要求，请勿选择 Office Tool Plus.</li><li>下载后再部署：如果网不行，最好把这个选上，免得安装卡进度卡半天。</li></ul></li><li><p>使用 Office Tool Plus 自动激活 Office</p><p>确保自己使用的是最新版的 Office Tool Plus，按下快捷键 Ctrl + Shift + P，打开命令框，按需复制下面的命令，粘贴后回车 Enter 以执行操作。</p><p><img src="https://www.coolhub.top/wp-content/uploads/2020/04/open-command-box.png"></p></li></ul><p>​      如果你安装了 Microsoft 365，或者你只是单纯地在遵循教程的指示，请使用以下代码进行激活：</p><blockquote><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ospp /inslicid MondoVolume /sethst:kms.loli.beer /setprt:1688 /act </span><br></pre></td></tr></table></figure></blockquote><p>​     或者是把 KMS 主机换成 kms.03k.org:</p><blockquote><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ospp /inslicid MondoVolume /sethst:kms.03k.org /setprt:1688 /act</span><br></pre></td></tr></table></figure></blockquote><p><strong>上述代码可一次性激活 Office, Visio, Project，同时适用 Win 7&#x2F;8，能使用 Office 的所有功能。</strong></p><blockquote><p>官方文档：<br>[安装 Office] Office Tool Plus 入门教程：<a href="https://www.coolhub.top/archives/11">https://www.coolhub.top/archives/11</a><br>[激活 Office] Office Tool Plus 入门教程：<a href="https://www.coolhub.top/archives/14">https://www.coolhub.top/archives/14</a><br>[疑难解答] Office Tool Plus 入门教程：<a href="https://www.coolhub.top/archives/13">https://www.coolhub.top/archives/13</a></p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Windows系统下载和激活</title>
