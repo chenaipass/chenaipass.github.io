@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>洛雪音乐 | 兴兴茶几</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://chenaipass.github.io/favicon.ico?v=1723955551330">
+<link rel="stylesheet" href="https://chenaipass.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="lx music（洛雪音乐）
+
+项目地址
+lyswhut/lx-music-desktop: 一个基于 electron 的音乐软件 (github.com)
+项目介绍
+
+
+说明
+
+一个基于 Electron + Vue 开发的音乐软件。
+..." />
+    <meta name="keywords" content="music,lx music" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://chenaipass.github.io">
+        <img src="https://chenaipass.github.io/images/avatar.png?v=1723955551330" class="site-logo">
+        <h1 class="site-title">兴兴茶几</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://github.com/chenaipass" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+          <a class="social-link" href="https://x.com/chenai_wxy" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+          <a class="social-link" href="https://www.facebook.com/profile.php?id=61550043795402" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+        
+      
+    </div>
+    <div class="site-description">
+      终究是努力比不上天赋！
+    </div>
+    <div class="site-footer">
+      Powered by 兴兴茶几 | <a class="rss" href="https://chenaipass.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">洛雪音乐</h2>
+            <div class="post-date">2024-08-18</div>
+            
+              <div class="feature-container" style="background-image: url('https://s2.loli.net/2024/08/18/gRzH3CDBcAY9OxX.png')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <h1 id="lx-music洛雪音乐">lx music（洛雪音乐）</h1>
+<figure data-type="image" tabindex="1"><img src="https://github.com/lyswhut/lx-music-desktop/raw/master/doc/images/icon.png" alt="lx music" loading="lazy"></figure>
+<h2 id="项目地址">项目地址</h2>
+<p><a href="https://github.com/lyswhut/lx-music-desktop">lyswhut/lx-music-desktop: 一个基于 electron 的音乐软件 (github.com)</a></p>
+<h2 id="项目介绍">项目介绍</h2>
+<ul>
+<li>
+<p>说明</p>
+<ul>
+<li>一个基于 Electron + Vue 开发的音乐软件。</li>
+</ul>
+</li>
+<li>
+<p>已支持的平台</p>
+<ul>
+<li>Windows 7 及以上</li>
+<li>Mac OS</li>
+<li>Linux</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>目前本项目的原始发布地址只有<strong>GitHub</strong>及<strong>蓝奏网盘</strong>，其他渠道均为第三方转载发布，与本项目无关！</p>
+</blockquote>
+<p><em>本人仅对本项目进行搬运，没有修改任何参数，请放心使用</em></p>
+<h2 id="ui界面">UI界面</h2>
+<figure data-type="image" tabindex="2"><img src="https://github.com/lyswhut/lx-music-desktop/raw/master/doc/images/app.png" alt="" loading="lazy"></figure>
+<blockquote>
+<p>常见问题已移至：<a href="https://lyswhut.github.io/lx-music-doc/desktop/faq">https://lyswhut.github.io/lx-music-doc/desktop/faq</a></p>
+</blockquote>
+<h2 id="下载及安装">下载及安装</h2>
+<ul>
+<li>
+<p>下载地址（官方）：<a href="https://github.com/lyswhut/lx-music-desktop/releases">Releases · lyswhut/lx-music-desktop (github.com)</a></p>
+</li>
+<li>
+<p>下载地址（本up主的123网盘）:<a href="https://www.123pan.com/s/Sv9LVv-zZM13">https://www.123pan.com/s/Sv9LVv-zZM13</a></p>
+</li>
+</ul>
+<p><em>更新可以在软件内部进行更新</em></p>
+<ul>
+<li>
+<p>安装可以无脑一直按，基本没有什么要修改的，可以修改安装路径</p>
+</li>
+<li>
+<p>下载音乐源（我的网盘内有）</p>
+<figure data-type="image" tabindex="3"><img src="https://s2.loli.net/2024/08/17/lZktTmMfsKAqoah.jpg" alt="Screenshot_2024-08-05-19-36-44-00_bc6e1660aa80e1f.jpg" loading="lazy"></figure>
+</li>
+</ul>
+<h2 id="软件设置">软件设置</h2>
+<h3 id="设置音乐源">设置音乐源</h3>
+<ol>
+<li>
+<p>在左侧栏中找到“设置”</p>
+<figure data-type="image" tabindex="4"><img src="https://s2.loli.net/2024/08/17/dfIE54v1mtQWChc.png" alt=" 2024-08-17 234208.png" loading="lazy"></figure>
+</li>
+<li>
+<p>找到“基本设置”</p>
+</li>
+<li>
+<p>找到并点击“自定义源管理”</p>
+<figure data-type="image" tabindex="5"><img src="https://s2.loli.net/2024/08/17/slXWq7hQiZbeFOH.png" alt=" 2024-08-17 234348.png" loading="lazy"></figure>
+</li>
+<li>
+<p>找到“本地导入”并点击</p>
+<figure data-type="image" tabindex="6"><img src="https://s2.loli.net/2024/08/17/GnVyjckrCDbwMNs.png" alt=" 2024-08-17 234439.png" loading="lazy"></figure>
+</li>
+<li>
+<p>任意选择一个js文件源，点击并打开</p>
+</li>
+<li>
+<p>依次添加音乐源（为防止有时候一个音乐源有问题，可以切换音乐源）</p>
+<figure data-type="image" tabindex="7"><img src="https://s2.loli.net/2024/08/17/JlGTih1C4a7NDZs.png" alt=" 2024-08-17 234757.png" loading="lazy"></figure>
+</li>
+<li>
+<p>记得勾选某一个音乐源</p>
+<figure data-type="image" tabindex="8"><img src="https://s2.loli.net/2024/08/17/w2yXMVdn8WFLmx9.png" alt=" 2024-08-17 234843.png" loading="lazy"></figure>
+</li>
+</ol>
+<h3 id="软件参数设置">软件参数设置</h3>
+<ul>
+<li>
+<p>音质设置</p>
+<figure data-type="image" tabindex="9"><img src="https://s2.loli.net/2024/08/18/uJLl31f7GBK8Mx4.png" alt=" 2024-08-18 000253.png" loading="lazy"></figure>
+</li>
+<li>
+<p>搜索设置</p>
+<figure data-type="image" tabindex="10"><img src="https://s2.loli.net/2024/08/18/ipBcfK6RMJZgazY.png" alt=" 2024-08-18 000340.png" loading="lazy"></figure>
+</li>
+<li>
+<p>下载音乐设置（参考）</p>
+<figure data-type="image" tabindex="11"><img src="https://s2.loli.net/2024/08/18/LEXBvzumUHbIkVP.png" alt=" 2024-08-18 000440.png" loading="lazy"></figure>
+</li>
+</ul>
+<p><em>开源是促进科技发展和交流的一种形式</em></p>
+<h2 id="app设置手机">app设置（手机）</h2>
+<h3 id="设置音乐源-2">设置音乐源</h3>
+<ol>
+<li>找到左上角的三条杠，单击打开<br>
+<img src="https://chenaipass.github.io/post-images/1723955396116.jpg" alt="" loading="lazy"></li>
+<li>左侧栏中找到设置<br>
+<img src="https://chenaipass.github.io/post-images/1723955405051.jpg" alt="" loading="lazy"></li>
+<li>下滑找到音乐来源，点击“自定义源管理”<br>
+<img src="https://chenaipass.github.io/post-images/1723955412157.jpg" alt="" loading="lazy"></li>
+<li>点击导入，选择本地导入<br>
+<img src="https://chenaipass.github.io/post-images/1723955424844.jpg" alt="" loading="lazy"></li>
+<li>找到下载音乐源的文件夹，找到js文件逐次点击添加即可<br>
+<img src="https://chenaipass.github.io/post-images/1723955432701.jpg" alt="" loading="lazy"></li>
+<li>出现下面“导入成功”就可以了<br>
+<img src="https://chenaipass.github.io/post-images/1723955441409.jpg" alt="" loading="lazy"></li>
+<li>记得勾选其中的一个音乐源</li>
+</ol>
+<h3 id="参数设置可以参考电脑的参数设置">参数设置可以参考电脑的参数设置</h3>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://chenaipass.github.io/tNeiu7lea/" class="tag">
+                    music
+                  </a>
+                
+                  <a href="https://chenaipass.github.io/wjFfmJa7iC/" class="tag">
+                    lx music
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://chenaipass.github.io/ji-huo-windows/">
+                  <h3 class="post-title">
+                    激活Windows系统
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+
+  </body>
+</html>
